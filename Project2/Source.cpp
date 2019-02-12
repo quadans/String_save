@@ -14,5 +14,6 @@ int main()
 	std::string name;
 	std::getline(std::cin, name);
 	std::cout << "Dein Wahl war " << eingabe1 << " und dein voller Name lautet " << name << ". \n";
+	std::cout << "Dein String ist " << name.length() << " Zeichen lang!\n";
 	return 0;
 }
