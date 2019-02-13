@@ -9,7 +9,7 @@ int main()
 	std::cin >> eingabe1;
 
 	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-	//oder std::cin.ignore(32767, '\n'); // ignoriert bis zu 32767 zeicen bis ein \n entfernt wird
+	//oder std::cin.ignore(32767, '\n'); // ignoriert bis zu 32767 Zeichen bis ein \n entfernt wird
 
 	std::cout << "Und jetzt deinen vollen Namen: ";
 	std::string name;
