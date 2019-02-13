@@ -1,6 +1,6 @@
 #include <string>
 #include <iostream>
-#include <limits>
+#include <limits>	// für numeric_limits
 
 int main()
 {
